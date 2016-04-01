@@ -7,7 +7,7 @@ library("shiny")
 
 # DATA STEPS
 
-code.violations <- read.csv("https://raw.githubusercontent.com/subartle/orangespot/master/data/code%20violations.csv")
+code.violations <- read.csv("./data/code violations.csv")
 
 lat.lon <- code.violations[ 5000:10000 , c("lat","lon") ] # sample for dev purposes
 
