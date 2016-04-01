@@ -4,6 +4,7 @@
 The following examples come pre-loaded in Shiny to demonstrate basic functionality.
 
 ```{r}
+library( shiny )
 
 runExample("01_hello") # a histogram
 runExample("02_text") # tables and data frames
@@ -16,4 +17,5 @@ runExample("08_html") # Shiny app built from HTML
 runExample("09_upload") # file upload wizard
 runExample("10_download") # file download wizard
 runExample("11_timer") # an automated timer
+
 ```
